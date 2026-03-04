@@ -1,0 +1,9 @@
+# JMComic QQ Bot 依赖
+# 作者：浮浮酱 ฅ'ω'ฅ
+
+nonebot2>=2.3.0
+nonebot-adapter-onebot>=2.4.0
+jmcomic>=2.0.0
+pillow>=10.0.0
+pyyaml>=6.0
+aiofiles>=23.0.0

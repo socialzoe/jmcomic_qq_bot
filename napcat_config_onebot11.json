@@ -1,0 +1,31 @@
+{
+  "http": {
+    "enable": true,
+    "host": "127.0.0.1",
+    "port": 3000,
+    "secret": "",
+    "enableHeart": true,
+    "enablePost": true,
+    "postUrls": ["http://127.0.0.1:8080"]
+  },
+  "ws": {
+    "enable": true,
+    "host": "127.0.0.1",
+    "port": 3001
+  },
+  "reverseWs": {
+    "enable": false,
+    "urls": []
+  },
+  "GroupLocalTime": {
+    "Record": false,
+    "RecordList": []
+  },
+  "debug": false,
+  "heartInterval": 30000,
+  "messagePostFormat": "array",
+  "enableLocalFile2Url": true,
+  "musicSignUrl": "",
+  "reportSelfMessage": false,
+  "token": ""
+}

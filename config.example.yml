@@ -1,0 +1,37 @@
+# JMComic QQ机器人配置示例
+# 复制此文件为 config.yml 并根据需要修改
+
+# 权限配置
+auth:
+  enable_whitelist: false  # 是否启用白名单（false=所有人可用）
+  admins:
+    - 你的QQ号  # 替换为你的QQ号（用于管理命令）
+
+# JMComic下载配置
+jmcomic:
+  # 下载目录（修改为你想要保存PDF的位置）
+  download_dir: "E:\\JMDownload"
+
+  # 客户端实现（api=移动端，兼容性好）
+  client_impl: "api"
+
+  # 代理配置（如果需要翻墙，取消注释并填写代理地址）
+  # proxy: "http://127.0.0.1:7890"
+
+  # 并发配置
+  threading:
+    album: 1
+    photo: 3   # 章节并发数
+    image: 8   # 图片并发数
+
+  # 转换完成后删除原图片（节省空间）
+  delete_images_after_convert: true
+
+# 机器人配置
+max_queue_size: 5         # 最多任务排队数
+task_interval: 3          # 任务间隔（秒）
+max_file_size_mb: 200     # 最大文件大小（MB）
+delete_after_send: false  # 发送后是否自动删除文件
+
+# 调试配置
+debug_mode: false
