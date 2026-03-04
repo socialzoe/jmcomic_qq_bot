@@ -5,7 +5,7 @@
 > 作者：浮浮酱 ฅ'ω'ฅ
 > 适用场景：私密小群（3-5人）
 
-[![GitHub stars](https://img.shields.io/github/stars/你的用户名/jmcomic_qq_bot?style=social)](https://github.com/你的用户名/jmcomic_qq_bot)
+[![GitHub stars](https://img.shields.io/github/stars/socialzoe/jmcomic_qq_bot?style=social)](https://github.com/socialzoe/jmcomic_qq_bot)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
@@ -32,7 +32,7 @@
 ### 第零步：下载项目
 
 ```bash
-git clone https://github.com/你的用户名/jmcomic_qq_bot.git
+git clone https://github.com/socialzoe/jmcomic_qq_bot.git
 cd jmcomic_qq_bot
 ```
 
